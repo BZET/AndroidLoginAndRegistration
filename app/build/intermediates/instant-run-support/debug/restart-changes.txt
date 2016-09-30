@@ -1,0 +1,1 @@
+CHANGED,C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\info\androidhive\loginandregistration\activity\LoginActivity.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Login and Registration</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Usuário</string>
+    <string name="btn_login">ENTRAR</string>
+    <string name="btn_register">CADASTRAR</string>
+    <string name="btn_link_to_register">Não tem uma conta? Cadastre-se aqui!</string>
+    <string name="btn_link_to_login">Já possui uma conta? Faça o login.</string>
+    <string name="welcome">Bem-Vindo!</string>
+    <string name="btn_logout">SAIR</string>
+    <string name="name">Usuário</string>
+
+</resources>
