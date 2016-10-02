@@ -121,7 +121,7 @@ public class LoginActivity extends Activity {
 
             @Override
             public void onResponse(String response) {
-                Log.d(TAG, "Login Response: " + response.toString());
+                Log.d(TAG, "Login Response: " + response);
                 hideDialog();
 
                 try {
@@ -140,10 +140,13 @@ public class LoginActivity extends Activity {
                         JSONObject user = jObj.getJSONObject("user");
                         String name = user.getString("name");
                         String email = user.getString("email");
-                        String created_at = user.getString("created_at");
+                        String criado_em = user.getString("criado_em");
+                        String phone_number = user.getString("phone_number");
+                        String table_number = user.getString("table_number");
+                        String atualizado_em = user.getString("atualizado_em");
 
                         // Inserting row in users table
-                        db.addUser(name, email, uid, created_at);
+                        db.addUser(name, email, uid, criado_em,atualizado_em,phone_number,table_number);
 
                         // Launch main activity
                         Intent intent = new Intent(LoginActivity.this,

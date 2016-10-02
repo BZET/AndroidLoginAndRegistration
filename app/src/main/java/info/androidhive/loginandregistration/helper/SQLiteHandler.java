@@ -13,6 +13,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import java.util.HashMap;
+import java.util.StringTokenizer;
 
 public class SQLiteHandler extends SQLiteOpenHelper {
 
@@ -33,7 +34,11 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	private static final String KEY_NAME = "name";
 	private static final String KEY_EMAIL = "email";
 	private static final String KEY_UID = "uid";
-	private static final String KEY_CREATED_AT = "created_at";
+	private static final String KEY_CRIADO_EM = "criado_em";
+	private static final String KEY_ATUALIZADO_EM = "atualizado_em";
+	private static final String KEY_PHONE_NUMBER = "phone_number";
+	private static final String KEY_TABLE_NUMBER = "table_number";
+
 
 	public SQLiteHandler(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -45,7 +50,8 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_USER + "("
 				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
 				+ KEY_EMAIL + " TEXT UNIQUE," + KEY_UID + " TEXT,"
-				+ KEY_CREATED_AT + " TEXT" + ")";
+				+ KEY_CRIADO_EM + " TEXT," + KEY_ATUALIZADO_EM + "TEXT,"
+				+ KEY_PHONE_NUMBER + "TEXT,"+KEY_TABLE_NUMBER+ "TEXT" +")";
 		db.execSQL(CREATE_LOGIN_TABLE);
 
 		Log.d(TAG, "Database tables created");
@@ -64,14 +70,19 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	/**
 	 * Storing user details in database
 	 * */
-	public void addUser(String name, String email, String uid, String created_at) {
+	public void addUser(String name, String email, String uid, String criado_em, String atualizado_em, String phone_number, String table_number) {
 		SQLiteDatabase db = this.getWritableDatabase();
 
 		ContentValues values = new ContentValues();
 		values.put(KEY_NAME, name); // Name
 		values.put(KEY_EMAIL, email); // Email
 		values.put(KEY_UID, uid); // Email
-		values.put(KEY_CREATED_AT, created_at); // Created At
+		values.put(KEY_CRIADO_EM, criado_em); // Data Criacao
+		values.put(KEY_ATUALIZADO_EM, atualizado_em); // Data Atualização
+		values.put(KEY_PHONE_NUMBER,phone_number);//Phone Number
+		values.put(KEY_TABLE_NUMBER,table_number);//Table Number
+
+
 
 		// Inserting Row
 		long id = db.insert(TABLE_USER, null, values);
@@ -95,7 +106,9 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 			user.put("name", cursor.getString(1));
 			user.put("email", cursor.getString(2));
 			user.put("uid", cursor.getString(3));
-			user.put("created_at", cursor.getString(4));
+			user.put("phone_number", cursor.getString(4));
+			user.put("criado_em", cursor.getString(5));
+			user.put("atualizado_em", cursor.getString(6));
 		}
 		cursor.close();
 		db.close();

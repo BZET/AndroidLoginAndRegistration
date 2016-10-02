@@ -1,1 +1,7 @@
-CHANGED,C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\info\androidhive\loginandregistration\activity\LoginActivity.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$1.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/helper/SQLiteHandler.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$3.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$5.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$2.class
+CHANGED,/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$4.class

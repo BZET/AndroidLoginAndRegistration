@@ -2,67 +2,67 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_617d02ce0c1ed0b1527513f2198f1afeb1d6ac83\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_af25834aa17f0a7e0f718f8a09cef88c20766aa4\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="794c877ddd70a60bce86527dcdfeb81f1ae1f917">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2fc7631df1c92aad1c2b480d0ddc7b95c7b5f1d3\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\bruna\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_d8513f78bdf3527379006f9740f6e60a17ffadda\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_dd3710cd2ba5a6d0cac4de2dda0b1654d94f559a\classes.dex" />
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_ca4afc366623d6ba773ec58be9d4c06afe238f11/classes.dex" />
     </item>
     <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="155ad3b1cc9649bb068b2c5aaebf2dd1c2e26475">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7ccdc655019ecffe04e5564d9b6f7d3153d0f684\classes.dex" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_4db8e8064b8540d20909060e6dd585be45625347/classes.dex" />
     </item>
     <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jar="/Users/bruna_satavares/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_0232860adaf519ca8af779949515867cfc7b9bbd\classes.dex" />
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_6f10b9a303afe8d12fdc8c6e82e076c270b23f01/classes.dex" />
     </item>
     <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_e4d0b64022225f60e8a50a55d1b184aab5495110\classes.dex" />
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_e01abced01c00947ac34fd050e11461edd72c7be/classes.dex" />
     </item>
     <item
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_956392266b6df37e0baa2131165105eef303c4af\classes.dex" />
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_b4f59a8c1e63b4742ef1d701dbcb2db36a7ec610/classes.dex" />
+    </item>
+    <item
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3355a489a481680ee099136c9af535463e8feac1">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7638fa0b907a4c1e8a17b9f73b69d38957f817f3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_727f13cf3dcc5b79b002916009712ad9ae5c83d0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_cd71c6901b09998529b75ec9608e017a27a1ae54/classes.dex" />
+    </item>
+    <item
+        jar="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="230d766b0bab8e35402185b8969711e846094c08">
+        <dex dex="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2a15d36d8a663e01c6d6ef88dc815c421631efdc/classes.dex" />
     </item>
 
 </items>

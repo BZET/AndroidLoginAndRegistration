@@ -77,6 +77,7 @@ public class RegisterActivity extends Activity {
         }
 
         // Register Button Click event
+        //Melhorar check de campos!
         btnRegister.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 String name = inputFullName.getText().toString().trim();
@@ -84,7 +85,9 @@ public class RegisterActivity extends Activity {
                 String password = inputPassword.getText().toString().trim();
 
                 if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty()) {
-                    registerUser(name, email, password);
+                    registerUser(name, email, password,"123456789");
+                    Toast.makeText(getApplicationContext(),"name " + name + " email " +email + " pass " + password , Toast.LENGTH_LONG)
+                            .show();
                 } else {
                     Toast.makeText(getApplicationContext(),
                             "Please enter your details!", Toast.LENGTH_LONG)
@@ -111,19 +114,20 @@ public class RegisterActivity extends Activity {
      * email, password) to register url
      * */
     private void registerUser(final String name, final String email,
-                              final String password) {
+                              final String password, final String phone_number) {
         // Tag used to cancel the request
         String tag_string_req = "req_register";
 
-        pDialog.setMessage("Registering ...");
+        pDialog.setMessage("Cadastrando o usuário ...");
         showDialog();
 
         StringRequest strReq = new StringRequest(Method.POST,
                 AppConfig.URL_REGISTER, new Response.Listener<String>() {
 
+
             @Override
             public void onResponse(String response) {
-                Log.d(TAG, "Register Response: " + response.toString());
+                Log.d(TAG, "Resposta do Registro no Servidor: " + response.toString());
                 hideDialog();
 
                 try {
@@ -132,17 +136,21 @@ public class RegisterActivity extends Activity {
                     if (!error) {
                         // User successfully stored in MySQL
                         // Now store the user in sqlite
+                        //Traduz o JSON em objetos
                         String uid = jObj.getString("uid");
 
                         JSONObject user = jObj.getJSONObject("user");
                         String name = user.getString("name");
                         String email = user.getString("email");
-                        String created_at = user.getString("created_at");
+                        String phone_number = user.getString("phone_number");
+                        String table_number = user.getString("table_number");
+                        String criado_em = user.getString("criado_em");
+                        String atualizado_em = user.getString("atualizado_em");
 
-                        // Inserting row in users table
-                        db.addUser(name, email, uid, created_at);
+                        // Inserting row in Android users table
+                        db.addUser(name, email, uid, criado_em,atualizado_em,phone_number,table_number);
 
-                        Toast.makeText(getApplicationContext(), "User successfully registered. Try login now!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Usuário Registrado com Sucesso!", Toast.LENGTH_LONG).show();
 
                         // Launch login activity
                         Intent intent = new Intent(
@@ -168,8 +176,7 @@ public class RegisterActivity extends Activity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e(TAG, "Registration Error: " + error.getMessage());
-                Toast.makeText(getApplicationContext(),
-                        error.getMessage(), Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),error.getMessage(), Toast.LENGTH_LONG).show();
                 hideDialog();
             }
         }) {
@@ -181,6 +188,9 @@ public class RegisterActivity extends Activity {
                 params.put("name", name);
                 params.put("email", email);
                 params.put("password", password);
+                params.put("phone_number", phone_number);
+
+
 
                 return params;
             }
