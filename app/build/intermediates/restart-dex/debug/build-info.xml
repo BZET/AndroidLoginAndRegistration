@@ -1,63 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    density="xxhdpi"
+    density="xxxhdpi"
     format="7"
-    timestamp="18164610333701"
-    token="-8433302447909738308"
-    verifier="COMPATIBLE" >
+    timestamp="22601692282692"
+    token="-8433302447909738308" >
 
     <task
         name="javac"
-        duration="1959" />
+        duration="1921" />
     <task
         name="instant-run-dex"
-        duration="1503" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="83" />
+        duration="637" />
     <task
         name="verifier"
-        duration="12" />
+        duration="149" />
 
     <artifact
-        location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="9248003361091" >
+    <build timestamp="22601692282692" >
         <artifact
             location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="16400008827031" >
-        <artifact
-            location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="17623940397257"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/builds/debug/17623940397257/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="17716606715715"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/builds/debug/17716606715715/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="18164610333701"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/bruna_satavares/Desktop/Projeto/AndroidLoginAndRegistration/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
