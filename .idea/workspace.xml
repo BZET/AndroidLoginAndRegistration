@@ -10,48 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a162725-5899-44b7-b7ae-270cd79ae4be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/restart-changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/info/androidhive/loginandregistration/activity/LoginActivity$override.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/activity/RegisterActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/info/androidhive/loginandregistration/helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/activity/RegisterActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/info/androidhive/loginandregistration/helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/LoginActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/LoginActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/activity/RegisterActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/info/androidhive/loginandregistration/helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/info/androidhive/loginandregistration/helper/SQLiteHandler.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/info/androidhive/loginandregistration/helper/SQLiteHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/coldswap.marker" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="AndroidLoginAndRegistration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +35,8 @@
       <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/info/androidhive/loginandregistration/activity/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8315467">
-              <caret line="208" column="31" selection-start-line="208" selection-start-column="31" selection-end-line="208" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.22358346">
+              <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
               <folding>
                 <element signature="e#2766#3626#0" expanded="true" />
                 <element signature="e#3625#3626#0" expanded="true" />
@@ -110,6 +69,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BrunaTavares" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2141,7 +2105,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475373596162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit de Mudancas">
+      <created>1475574765995</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475574765995</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2191,7 +2161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add número de celular, na chamada" />
     <MESSAGE value="Add número de celular no POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add número de celular no POST" />
+    <MESSAGE value="Commit de Mudancas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de Mudancas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2258,8 +2229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/info/androidhive/loginandregistration/activity/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8315467">
-          <caret line="208" column="31" selection-start-line="208" selection-start-column="31" selection-end-line="208" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.22358346">
+          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
           <folding>
             <element signature="e#2766#3626#0" expanded="true" />
             <element signature="e#3625#3626#0" expanded="true" />
