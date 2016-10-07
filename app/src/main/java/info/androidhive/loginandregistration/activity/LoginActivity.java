@@ -35,9 +35,10 @@ import info.androidhive.loginandregistration.helper.SessionManager;
 
 public class LoginActivity extends Activity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
-   // private Button btnLogin;
+
     private TextView btnLogin;
-    private Button btnLinkToRegister;
+    private TextView btnLinkToRegister;
+    private Button btnLinkToForgotPassword;
     private EditText inputEmail;
     private EditText inputPassword;
     private ProgressDialog pDialog;
@@ -52,7 +53,7 @@ public class LoginActivity extends Activity {
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
         btnLogin = (TextView) findViewById(R.id.btnLogin);
-        btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
+        btnLinkToRegister = (TextView) findViewById(R.id.btnLinkToRegisterScreen);
 
         // Progress dialog
         pDialog = new ProgressDialog(this);
@@ -86,7 +87,7 @@ public class LoginActivity extends Activity {
                 } else {
                     // Prompt user to enter credentials
                     Toast.makeText(getApplicationContext(),
-                            "Please enter the credentials!", Toast.LENGTH_LONG)
+                            "Preencha os campos!", Toast.LENGTH_LONG)
                             .show();
                 }
             }
@@ -135,18 +136,16 @@ public class LoginActivity extends Activity {
                         session.setLogin(true);
 
                         // Now store the user in SQLite
-                        String uid = jObj.getString("uid");
-
                         JSONObject user = jObj.getJSONObject("user");
-                        String name = user.getString("name");
-                        String email = user.getString("email");
-                        String criado_em = user.getString("criado_em");
-                        String phone_number = user.getString("phone_number");
-                        String table_number = user.getString("table_number");
-                        String atualizado_em = user.getString("atualizado_em");
+                        String idUser = user.getString("idUser");
+                        String name = user.getString("Nome");
+                        String email = user.getString("Email");
+                        String phone_number = user.getString("Celular");
+                        String idTable = user.getString("idMesa");
+                        String atualizado_em = user.getString("Atualizado_em");
 
                         // Inserting row in users table
-                        db.addUser(name, email, uid, criado_em,atualizado_em,phone_number,table_number);
+                        db.addUser(idUser,name, email,atualizado_em,phone_number,idTable);
 
                         // Launch main activity
                         Intent intent = new Intent(LoginActivity.this,

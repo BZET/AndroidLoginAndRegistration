@@ -35,7 +35,7 @@ import info.androidhive.loginandregistration.helper.SessionManager;
 
 public class RegisterActivity extends Activity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
-    //private Button btnRegister;
+
     private TextView btnRegister;
     private Button btnLinkToLogin;
     private EditText inputFullName;
@@ -54,8 +54,8 @@ public class RegisterActivity extends Activity {
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
         btnRegister = (TextView) findViewById(R.id.btnRegister);
-        //btnRegister = (Button) findViewById(R.id.btnRegister);
         btnLinkToLogin = (Button) findViewById(R.id.btnLinkToLoginScreen);
+
 
         // Progress dialog
         pDialog = new ProgressDialog(this);
@@ -80,17 +80,18 @@ public class RegisterActivity extends Activity {
         //Melhorar check de campos!
         btnRegister.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                //Pega os valores nos campos
                 String name = inputFullName.getText().toString().trim();
                 String email = inputEmail.getText().toString().trim();
                 String password = inputPassword.getText().toString().trim();
 
                 if (!name.isEmpty() && !email.isEmpty() && !password.isEmpty()) {
                     registerUser(name, email, password,"123456789");
-                    Toast.makeText(getApplicationContext(),"name " + name + " email " +email + " pass " + password , Toast.LENGTH_LONG)
-                            .show();
+                    //Toast.makeText(getApplicationContext(),"name " + name + " email " +email + " pass " + password , Toast.LENGTH_LONG)
+                    //        .show();
                 } else {
                     Toast.makeText(getApplicationContext(),
-                            "Please enter your details!", Toast.LENGTH_LONG)
+                            "Por favor preencha os campos!", Toast.LENGTH_LONG)
                             .show();
                 }
             }
@@ -137,27 +138,26 @@ public class RegisterActivity extends Activity {
                         // User successfully stored in MySQL
                         // Now store the user in sqlite
                         //Traduz o JSON em objetos
-                        String uid = jObj.getString("uid");
 
                         JSONObject user = jObj.getJSONObject("user");
-                        String name = user.getString("name");
-                        String email = user.getString("email");
-                        String phone_number = user.getString("phone_number");
-                        String table_number = user.getString("table_number");
-                        String criado_em = user.getString("criado_em");
-                        String atualizado_em = user.getString("atualizado_em");
+                        String idUser = user.getString("idUser");
+                        String name = user.getString("Nome");
+                        String email = user.getString("Email");
+                        String phone_number = user.getString("Celular");
+                        String idTable = user.getString("idMesa");
+                       String atualizado_em = user.getString("Atualizado_em");
 
                         // Inserting row in Android users table
-                        db.addUser(name, email, uid, criado_em,atualizado_em,phone_number,table_number);
+                        db.addUser(idUser, name, email,atualizado_em,phone_number,idTable );
 
-                        Toast.makeText(getApplicationContext(), "Usuário Registrado com Sucesso!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Usuário Registrado com Sucesso!", Toast.LENGTH_SHORT).show();
 
                         // Launch login activity
                         Intent intent = new Intent(
                                 RegisterActivity.this,
-                                LoginActivity.class);
+                                MainActivity.class);
                         startActivity(intent);
-                        finish();
+                        //finish();
                     } else {
 
                         // Error occurred in registration. Get the error
@@ -188,10 +188,6 @@ public class RegisterActivity extends Activity {
                 params.put("name", name);
                 params.put("email", email);
                 params.put("password", password);
-                params.put("phone_number", phone_number);
-
-
-
                 return params;
             }
 

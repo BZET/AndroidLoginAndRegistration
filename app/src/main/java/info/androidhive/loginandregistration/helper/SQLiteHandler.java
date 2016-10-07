@@ -30,14 +30,13 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	private static final String TABLE_USER = "user";
 
 	// Login Table Columns names
-	private static final String KEY_ID = "id";
+	private static final String KEY_ID_USER = "iduser";
 	private static final String KEY_NAME = "name";
 	private static final String KEY_EMAIL = "email";
 	private static final String KEY_UID = "uid";
-	private static final String KEY_CRIADO_EM = "criado_em";
 	private static final String KEY_ATUALIZADO_EM = "atualizado_em";
 	private static final String KEY_PHONE_NUMBER = "phone_number";
-	private static final String KEY_TABLE_NUMBER = "table_number";
+	private static final String KEY_ID_TABLE = "idtable";
 
 
 	public SQLiteHandler(Context context) {
@@ -48,10 +47,10 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_USER + "("
-				+ KEY_ID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
-				+ KEY_EMAIL + " TEXT UNIQUE," + KEY_UID + " TEXT,"
-				+ KEY_CRIADO_EM + " TEXT," + KEY_ATUALIZADO_EM + "TEXT,"
-				+ KEY_PHONE_NUMBER + "TEXT,"+KEY_TABLE_NUMBER+ "TEXT" +")";
+				+ KEY_UID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
+				+ KEY_EMAIL + " TEXT UNIQUE," + KEY_ID_USER + " TEXT,"
+				+ KEY_ATUALIZADO_EM + "TEXT," + KEY_PHONE_NUMBER
+				+ "TEXT,"+ KEY_ID_TABLE + "TEXT" +")";
 		db.execSQL(CREATE_LOGIN_TABLE);
 
 		Log.d(TAG, "Database tables created");
@@ -61,7 +60,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// Drop older table if existed
-		db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
+		//db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
 
 		// Create tables again
 		onCreate(db);
@@ -70,25 +69,23 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	/**
 	 * Storing user details in database
 	 * */
-	public void addUser(String name, String email, String uid, String criado_em, String atualizado_em, String phone_number, String table_number) {
+	public void addUser(String iduser, String name, String email,String atualizado_em,String phone_number, String idTable) {
 		SQLiteDatabase db = this.getWritableDatabase();
 
 		ContentValues values = new ContentValues();
+        values.put(KEY_ID_USER, iduser); // idUser do Servidor
 		values.put(KEY_NAME, name); // Name
 		values.put(KEY_EMAIL, email); // Email
-		values.put(KEY_UID, uid); // Email
-		values.put(KEY_CRIADO_EM, criado_em); // Data Criacao
+
 		values.put(KEY_ATUALIZADO_EM, atualizado_em); // Data Atualização
 		values.put(KEY_PHONE_NUMBER,phone_number);//Phone Number
-		values.put(KEY_TABLE_NUMBER,table_number);//Table Number
+		values.put(KEY_ID_TABLE,idTable);//id da Tabela do Banco de Dados
 
-
-
-		// Inserting Row
+        // Inserting Row
 		long id = db.insert(TABLE_USER, null, values);
 		db.close(); // Closing database connection
 
-		Log.d(TAG, "New user inserted into sqlite: " + id);
+		Log.d(TAG, "Novo usuário adicionado na tabela: " + id);
 	}
 
 	/**
@@ -105,15 +102,15 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		if (cursor.getCount() > 0) {
 			user.put("name", cursor.getString(1));
 			user.put("email", cursor.getString(2));
-			user.put("uid", cursor.getString(3));
-			user.put("phone_number", cursor.getString(4));
-			user.put("criado_em", cursor.getString(5));
-			user.put("atualizado_em", cursor.getString(6));
+            user.put("iduser", cursor.getString(3));
+            user.put("atualizado_em", cursor.getString(4));
+			user.put("phone_number", cursor.getString(5));
+			user.put("idtable", cursor.getString(6));
 		}
 		cursor.close();
 		db.close();
 		// return user
-		Log.d(TAG, "Fetching user from Sqlite: " + user.toString());
+		Log.d(TAG, "Pegando usuario do Sqlite: " + user.toString());
 
 		return user;
 	}
