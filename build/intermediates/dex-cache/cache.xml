@@ -3,24 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_e4d0b64022225f60e8a50a55d1b184aab5495110\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_af25834aa17f0a7e0f718f8a09cef88c20766aa4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,21 +30,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="db2afc532c9be3d07362c81adbe1ee021350d690">
+        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2fc7631df1c92aad1c2b480d0ddc7b95c7b5f1d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="5050a82f451b1735b6b424fd94e24dcc6b4f4411">
         <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7ccdc655019ecffe04e5564d9b6f7d3153d0f684\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="9f06da6e50794519777a910a7de25eb9e104cd7a">
-        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2fc7631df1c92aad1c2b480d0ddc7b95c7b5f1d3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +63,24 @@
         revision="23.0.2"
         sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
         <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.mcxiaoke.volley-library-aar-1.0.0_0232860adaf519ca8af779949515867cfc7b9bbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_e4d0b64022225f60e8a50a55d1b184aab5495110\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_af25834aa17f0a7e0f718f8a09cef88c20766aa4\classes.dex" />
     </item>
 
 </items>

@@ -196,6 +196,10 @@
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_passwordrecover.xml",
+        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_passwordrecover.xml"
+    },
+    {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
     },

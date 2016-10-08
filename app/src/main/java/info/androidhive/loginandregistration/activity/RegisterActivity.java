@@ -110,6 +110,12 @@ public class RegisterActivity extends Activity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        finish();
+        super.onBackPressed();
+    }
+
     /**
      * Function to store user in MySQL database will post params(tag, name,
      * email, password) to register url
@@ -164,7 +170,9 @@ public class RegisterActivity extends Activity {
                         // message
                         String errorMsg = jObj.getString("error_msg");
                         Toast.makeText(getApplicationContext(),
-                                errorMsg, Toast.LENGTH_LONG).show();
+                                "Um erro ocorreu tente cadastrar novamente", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getApplicationContext(),
+//                                errorMsg, Toast.LENGTH_LONG).show();
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();

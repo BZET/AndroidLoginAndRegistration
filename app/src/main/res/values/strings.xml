@@ -8,8 +8,10 @@
     <string name="hint_password">Senha</string>
     <string name="hint_name">Nome Completo</string>
     <string name="btn_login">ENTRAR</string>
-    <string name="btn_register">CADASTRAR</string>
-    <string name="btn_link_to_forget_password">Esqueceu sua senha? Recupera ela aqui!</string>
+    <string name="btn_passwordrecover">ENVIAR EMAIL DE REDEFINIÇÃO</string>
+    <string name="btn_register">CRIE UMA CONTA</string>
+    <string name="recover_intructions">Esqueceu sua senha? Digite seu email a baixo e nós lhe enviaremos um link para definir uma nova senha"</string>
+    <string name="btn_link_to_forget_password">Esqueceu sua senha? Clique aqui!</string>
     <string name="btn_link_to_login">Já possui uma conta? Faça o login.</string>
 
 

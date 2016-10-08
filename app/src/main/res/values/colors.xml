@@ -10,13 +10,13 @@
 
     <color name="input_register_bg">#3b4148</color>
 
-    <color name="btn_login">#dddfdf</color>
+    <color name="btn_login">#cfbab1b1</color>
     <color name="btn_login_bg">#9a0b0b</color>
     <color name="lbl_name">#333333</color>
     <color name="btn_logout_bg">#ff6861</color>
 
     <!-- New Colors -->
-
+    <color name="linktoforgotpassword">#cfbab1b1</color>
     <color name="title">#c4b9b9</color>
 
     <color name="login_background">#850f0f</color>

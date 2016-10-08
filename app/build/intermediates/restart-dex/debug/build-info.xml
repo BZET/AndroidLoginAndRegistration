@@ -4,43 +4,43 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="31404948469484"
+    timestamp="130909679428927"
     token="8741848992187973241"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1702" />
+        duration="1120" />
     <task
         name="instant-run-dex"
-        duration="1408" />
+        duration="1421" />
     <task
         name="instant-run-transform"
-        duration="40" />
+        duration="259" />
     <task
         name="verifier"
-        duration="10" />
+        duration="38" />
 
     <artifact
         location="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
     <build
-        timestamp="31180189712766"
+        timestamp="130657772616668"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="31341577669807"
-        verifier="COMPATIBLE" >
+        timestamp="130847498490050"
+        verifier="METHOD_ADDED" >
         <artifact
-            location="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\builds\debug\31341577669807\classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="31404948469484"
+        timestamp="130909679428927"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\bruna\Desktop\AndroidLoginAndRegistration\app\build\intermediates\reload-dex\debug\classes.dex"

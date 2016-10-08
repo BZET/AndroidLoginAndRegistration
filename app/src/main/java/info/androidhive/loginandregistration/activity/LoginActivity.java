@@ -38,7 +38,7 @@ public class LoginActivity extends Activity {
 
     private TextView btnLogin;
     private TextView btnLinkToRegister;
-    private Button btnLinkToForgotPassword;
+    private Button btnLinkToRecoverPassword;
     private EditText inputEmail;
     private EditText inputPassword;
     private ProgressDialog pDialog;
@@ -54,6 +54,7 @@ public class LoginActivity extends Activity {
         inputPassword = (EditText) findViewById(R.id.password);
         btnLogin = (TextView) findViewById(R.id.btnLogin);
         btnLinkToRegister = (TextView) findViewById(R.id.btnLinkToRegisterScreen);
+        btnLinkToRecoverPassword = (Button) findViewById(R.id.btnLinkToRecoverPassword);
 
         // Progress dialog
         pDialog = new ProgressDialog(this);
@@ -101,7 +102,18 @@ public class LoginActivity extends Activity {
                 Intent i = new Intent(getApplicationContext(),
                         RegisterActivity.class);
                 startActivity(i);
-                finish();
+                //finish();
+            }
+        });
+
+        // Link to Recover Password Screen
+        btnLinkToRecoverPassword.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),
+                        RecoverPassActivity.class);
+                startActivity(i);
+               // finish();
             }
         });
 
@@ -171,7 +183,9 @@ public class LoginActivity extends Activity {
             public void onErrorResponse(VolleyError error) {
                 Log.e(TAG, "Login Error: " + error.getMessage());
                 Toast.makeText(getApplicationContext(),
-                        error.getMessage(), Toast.LENGTH_LONG).show();
+                        "Erro no login! Tente novamente!", Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(),
+//                        error.getMessage(), Toast.LENGTH_LONG).show();
                 hideDialog();
             }
         }) {
