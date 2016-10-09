@@ -196,7 +196,6 @@ public class LoginActivity extends Activity {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("email", email);
                 params.put("password", password);
-
                 return params;
             }
 

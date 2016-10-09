@@ -21,7 +21,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
 	// All Static variables
 	// Database Version
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 2;
 
 	// Database Name
 	private static final String DATABASE_NAME = "android_api";
@@ -46,13 +46,15 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	// Creating Tables
 	@Override
 	public void onCreate(SQLiteDatabase db) {
+        //UID/NAME/EMAIL/IDUSER/ATUALIZADO_EM/PHONE_NUMBER/IDTABLE
 		String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_USER + "("
 				+ KEY_UID + " INTEGER PRIMARY KEY," + KEY_NAME + " TEXT,"
 				+ KEY_EMAIL + " TEXT UNIQUE," + KEY_ID_USER + " TEXT,"
-				+ KEY_ATUALIZADO_EM + "TEXT," + KEY_PHONE_NUMBER
-				+ "TEXT,"+ KEY_ID_TABLE + "TEXT" +")";
+				+ KEY_ATUALIZADO_EM + " TEXT," + KEY_PHONE_NUMBER
+				+ " TEXT,"+ KEY_ID_TABLE + " TEXT " +")";
 		db.execSQL(CREATE_LOGIN_TABLE);
 
+        Log.i(TAG, CREATE_LOGIN_TABLE);
 		Log.d(TAG, "Database tables created");
 
 
@@ -62,8 +64,8 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 		// Drop older table if existed
-		//db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
-
+		db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
+        Log.d(TAG, "Database tables droped");
 		// Create tables again
 		onCreate(db);
 	}
@@ -85,6 +87,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
         // Inserting Row
 		long id = db.insert(TABLE_USER, null, values);
+
 		db.close(); // Closing database connection
 
 		Log.d(TAG, "Novo usuário adicionado na tabela: " + id);
@@ -98,8 +101,10 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 		String selectQuery = "SELECT  * FROM " + TABLE_USER;
 
 		SQLiteDatabase db = this.getReadableDatabase();
+
 		Cursor cursor = db.rawQuery(selectQuery, null);
 		// Move to first row
+        //UID/NAME/EMAIL/IDUSER/ATUALIZADO_EM/PHONE_NUMBER/IDTABLE
 		cursor.moveToFirst();
 		if (cursor.getCount() > 0) {
 			user.put("name", cursor.getString(1));

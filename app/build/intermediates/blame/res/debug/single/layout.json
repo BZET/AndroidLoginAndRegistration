@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -112,10 +112,6 @@
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
@@ -176,6 +172,10 @@
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main1.xml",
+        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_main1.xml"
+    },
+    {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
     },
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_passwordrecover.xml",
         "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_passwordrecover.xml"
+    },
+    {
+        "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "C:\\Users\\bruna\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
